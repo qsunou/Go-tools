@@ -2,9 +2,6 @@ package slice
 
 import "github.com/qsunou/Go-tools/internal/errs"
 
-// Add inserts an element at the specified index in the slice.
-// If the index is out of range, it returns an error using errs.NewErrIndexOutOfRange.
-// Otherwise, it returns the new slice with the element inserted.
 func Add[T any](slice []T, element T, index int) ([]T, error) {
 	length := len(slice)
 
