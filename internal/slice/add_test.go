@@ -3,7 +3,7 @@ package slice
 import (
 	"testing"
 
-	"github.com/go-playground/assert"
+	"github.com/stretchr/testify/assert"
 	"github.com/qsunou/Go-tools/internal/errs"
 )
 
